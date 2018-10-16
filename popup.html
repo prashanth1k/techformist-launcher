@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Techformist Launcher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        html,body {
+            font-family:'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0px;
+        }
+        h1 {
+            font-family: 'Menlo', monospace;
+            font-size: 20px;
+            font-weight: 400;
+            margin: 0;
+            color:darkslateblue;
+
+        }
+
+        a:link, a:visited{
+            color:black;
+            outline:0;
+            text-decoration: none;
+        }
+
+        image{
+            width: 30px;
+
+        }
+
+        .modal-header{
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+
+        .modal-content{
+            padding: 0 22px;
+        }
+
+        .modal-icons{
+            border: 0.5px solid #dadada;
+            height:50px;
+            width:100%;
+        }
+        .logo{
+            padding:16px;
+
+        }
+
+        .logo-icon{
+            vertical-align:text-bottom;
+            margin-right:12px;
+        }
+
+        .version {
+            color:#4444;
+            font-size:18px;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding:10px 22px;
+
+        }
+
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+
+        .flex:hover{
+            opacity: 0.4;
+
+        }
+
+        .flex .fa{
+            font-size:40px;
+            color:darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="images/techformist-logo.png" alt="techformist" class="logo-icon">Techformist Launcher <span class="version">(0.1)</span>
+
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>Content links</p>
+    </div>
+    <div class="modal-icons">
+          <div class="flex-container">
+              <div class="flex">
+                  <a href="https://techformist.com" target="_blank"><i class="fa fa-globe"></i></a>
+              </div>
+          </div>  
+          <div class="flex-container">
+            <div class="flex">
+                <a href="http://facebook.com/techformist-244090392926488" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div> 
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://twitter.com/techformist" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div> 
+        </div> 
+    </div>
+</body>
+</html>
